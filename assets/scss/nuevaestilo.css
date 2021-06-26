@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'open sans';
+  font-family: 'Montserrat', sans-serif;
   background: -webkit-gradient(linear, left top, right top, from(#8a4971), to(#FF0099));
   background: linear-gradient(to right, #8a4971, #FF0099);
 }
@@ -81,13 +81,14 @@ header .textos-header {
 }
 
 .textos-header h1 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   color: #fff;
 }
 
 .textos-header h2 {
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 200;
   color: #fff;
 }
 
@@ -287,6 +288,7 @@ main .sobre-nosotros {
 .servicio-ind {
   width: 28%;
   text-align: center;
+  padding: 10px;
 }
 
 .servicio-ind img {
@@ -298,8 +300,10 @@ main .sobre-nosotros {
 }
 
 .servicio-ind p {
-  font-weight: 300;
+  font-weight: 100;
   text-align: justify;
+  font-size: 15px;
+  padding: 5px;
 }
 
 /* footer */
@@ -340,7 +344,7 @@ footer {
 
 .titulo-final {
   text-align: center;
-  font-size: 24px;
+  font-size: 10px;
   margin: 20px 0 0 0;
   color: #9e9797;
 }
@@ -422,9 +426,10 @@ footer {
   }
   .textos-header h1 {
     font-size: 35px;
+    margin-bottom: 15px;
   }
   .textos-header h2 {
-    font-size: 20px;
+    font-size: 15px;
   }
   /* ABOUT US */
   .imagen-about-us {
@@ -463,6 +468,7 @@ footer {
     -ms-flex-direction: column;
     flex-direction: column;
     border: none;
+    padding-bottom: 10px;
   }
   .content-foo {
     margin-bottom: 20px;
@@ -473,11 +479,12 @@ footer {
   }
   .content-foo p {
     color: #ccc;
+    font-size: 15px;
     border-bottom: 1px solid #f2f2f2;
     padding-bottom: 20px;
   }
   .titulo-final {
-    font-size: 20px;
+    font-size: 10px;
   }
 }
 
@@ -498,19 +505,37 @@ footer {
   background: linear-gradient(to right, #493240, #FF0099);
 }
 
-.mainempresa {
-  height: 100px;
-  color: white;
+.historia {
+  color: #fff;
+  padding: 50px 30px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.div1 {
-  height: 100px;
-  color: white;
+.historia h2 {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px 0;
 }
 
-.section1 {
-  height: 100px;
-  color: white;
+.historia .objetivo p, .historia .section1 p {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.historia .section2 {
+  padding: 10px;
+}
+
+.historia .section2 .section2__titulo {
+  font-weight: 200;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.historia .section2 .section2__parrafo {
+  font-size: 15px;
+  font-weight: 100;
 }
 
 .clubdecatas {
@@ -526,24 +551,29 @@ footer {
   width: center;
 }
 
-.mainc {
-  height: 100px;
-  color: white;
+/* .mainc {
+        height: 100px;
+        color: white;
+      } */
+.cataVirtual {
+  color: #fff;
+  padding: 50px 30px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.sectionc {
-  height: 100px;
-  color: white;
+.cataVirtual .sectionc1 {
+  padding: 10px;
 }
 
-.sectionc1 {
-  height: 100px;
-  color: white;
+.cataVirtual h2 {
+  font-weight: 300;
+  font-size: 30px;
+  padding-top: 20px;
 }
 
-.sectionc2 {
-  height: 100px;
-  color: white;
+.cataVirtual p {
+  font-size: 15px;
+  font-weight: 100;
 }
 
 .form-registro {
@@ -656,14 +686,13 @@ ul.slider li:target {
 }
 
 .banner {
-  width: 75%;
+  width: auto;
   height: 450px;
   border: 3px solid white;
   margin: auto;
   margin-top: 15px;
   -webkit-margin-after: 15px;
           margin-block-end: 15px;
-  padding: 300px;
   background-size: 100% 100%;
   -webkit-animation-name: banner;
           animation-name: banner;
@@ -724,14 +753,13 @@ ul.slider li:target {
 }
 
 .banner1 {
-  width: 75%;
+  width: auto;
   height: 450px;
   border: 3px solid white;
   margin: auto;
   margin-top: 15px;
   -webkit-margin-after: 15px;
           margin-block-end: 15px;
-  padding: 300px;
   background-size: 100% 100%;
   -webkit-animation-name: banner1;
           animation-name: banner1;

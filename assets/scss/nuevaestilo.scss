@@ -6,7 +6,7 @@
   }
 
 body {
-    font-family: 'open sans';
+    font-family: 'Montserrat', sans-serif;
     background: -webkit-gradient(linear, left top, right top, from(#8a4971), to(#FF0099));
     background: linear-gradient(to right, #8a4971, #FF0099);
   }
@@ -81,13 +81,14 @@ body {
   }
   
   .textos-header h1 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     color: #fff;
   }
   
   .textos-header h2 {
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 200;
     color: #fff;
   }
   
@@ -287,6 +288,7 @@ body {
   .servicio-ind {
     width: 28%;
     text-align: center;
+    padding: 10px;
   }
   
   .servicio-ind img {
@@ -298,8 +300,10 @@ body {
   }
   
   .servicio-ind p {
-    font-weight: 300;
+    font-weight: 100;
     text-align: justify;
+    font-size: 15px;
+    padding: 5px;
   }
   
   /* footer */
@@ -340,7 +344,7 @@ body {
   
   .titulo-final {
     text-align: center;
-    font-size: 24px;
+    font-size: 10px;
     margin: 20px 0 0 0;
     color: #9e9797;
   }
@@ -421,9 +425,10 @@ body {
         }
         .textos-header h1 {
           font-size: 35px;
+          margin-bottom: 15px;
         }
         .textos-header h2 {
-          font-size: 20px;
+          font-size: 15px;
         }
         /* ABOUT US */
         .imagen-about-us {
@@ -462,6 +467,7 @@ body {
               -ms-flex-direction: column;
                   flex-direction: column;
           border: none;
+          padding-bottom: 10px;
         }
         .content-foo {
           margin-bottom: 20px;
@@ -472,11 +478,12 @@ body {
         }
         .content-foo p {
           color: #ccc;
+          font-size: 15px;
           border-bottom: 1px solid #f2f2f2;
           padding-bottom: 20px;
         }
         .titulo-final {
-          font-size: 20px;
+          font-size: 10px;
         }
       }
       .empresa {
@@ -496,21 +503,36 @@ body {
         background: linear-gradient(to right, #493240, #FF0099);
       }
       
-      .mainempresa {
-        height: 100px;
-        color: white;
-      }
-      
-      .div1 {
-        height: 100px;
-        color: white;
-      }
-      
-      .section1 {
-        height: 100px;
-        color: white;
-      }
-      
+      .historia {
+        color: #fff;
+         padding: 50px 30px;
+         font-family: 'Montserrat', sans-serif;
+         h2 {
+           font-size: 20px;
+           font-weight: 300;
+           padding: 10px 0;
+         }
+         .objetivo p, .section1 p {
+           padding: 10px;
+           font-size: 15px;
+           font-weight: 100;
+         }
+         .section2 {
+          padding: 10px;
+          .section2__titulo {
+            font-weight: 200;
+            font-size: 20px;
+            padding-top: 20px;
+          }
+          .section2__parrafo {
+           font-size: 15px;
+           font-weight: 100;
+          
+
+          }
+
+         }
+        }
       .clubdecatas {
         background: #FF0099;
         /* fallback for old browsers */
@@ -524,24 +546,30 @@ body {
         width: center;
       }
       
-      .mainc {
+      /* .mainc {
         height: 100px;
         color: white;
+      } */
+
+      .cataVirtual {
+        color: #fff;
+       padding: 50px 30px;
+       font-family: 'Montserrat', sans-serif;
+       .sectionc1 {
+        padding: 10px;
+       }
+        h2 {
+          font-weight: 300;
+          font-size: 30px;
+          padding-top: 20px;
+        }
+        p {
+         font-size: 15px;
+         font-weight: 100;
       }
-      .sectionc {
-        height: 100px;
-        color: white;
-      }
+    }
+    
       
-      .sectionc1 {
-        height: 100px;
-        color: white;
-      }
-      
-      .sectionc2 {
-        height: 100px;
-        color: white;
-      }
       
       .form-registro {
        width: 400px;
@@ -647,13 +675,13 @@ body {
       }
 
       .banner {
-        width: 75%;
+        width: auto;
         height: 450px;
         border: 3px solid white;
         margin: auto;
         margin-top: 15px;
         margin-block-end: 15px;
-        padding: 300px;
+        
 
         
         background-size: 100% 100%;
@@ -665,7 +693,7 @@ body {
 
       @keyframes banner {
         0%, 10% {
-          background-image: url(/img/1photo.jpg);
+          background-image: url(/img/1photo.jpg) ;
           opacity: 1;
         }
         15%, 25% {
@@ -693,13 +721,13 @@ body {
 }
 
 .banner1 {
-  width: 75%;
+  width: auto;
   height: 450px;
   border: 3px solid white;
   margin: auto;
   margin-top: 15px;
   margin-block-end: 15px;
-  padding: 300px;
+  
 
   
   background-size: 100% 100%;
